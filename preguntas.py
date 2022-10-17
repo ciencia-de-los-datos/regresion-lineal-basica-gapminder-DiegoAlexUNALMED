@@ -25,13 +25,13 @@ def pregunta_01():
     print(y.shape)
 
     # Imprima las dimensiones de `X`
-    print(x.shape)
+    print(X.shape)
 
     # Transforme `y` a un array de numpy usando reshape
     y_reshaped = y.reshape(139,1)
 
     # Trasforme `X` a un array de numpy usando reshape
-    X_reshaped = x.reshape(139, 1)
+    X_reshaped = X.reshape(139, 1)
 
     # Imprima las nuevas dimensiones de `y`
     print(y_reshaped.shape)
